@@ -39,7 +39,8 @@ h1, h2, h3, h4, h5, p, ul {
 }
 
 .section {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .list {
@@ -47,7 +48,7 @@ h1, h2, h3, h4, h5, p, ul {
   list-style: none;
 }
 /*header*/
-.header, .portfolio-header {
+.header, {
   border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 .logo {
@@ -85,7 +86,6 @@ h1, h2, h3, h4, h5, p, ul {
 
 /* hero section */
 .hero-section {
-  margin-bottom: 94px;
   background-color: var(--secondary-bg-color);
   text-align: center;
 }
@@ -125,6 +125,9 @@ h1, h2, h3, h4, h5, p, ul {
 }
 
 /* features */
+.section.features {
+  padding-bottom: 0;
+}
 .features-title {
   margin-bottom: 10px;
   font-weight: 700;
@@ -168,9 +171,6 @@ h1, h2, h3, h4, h5, p, ul {
 .section.portfolio {
   text-align: center;
 }
-.portfolio-header {
-  margin-bottom: 94px;
-}
 .button-list {
   margin-bottom: 50px;
 }
@@ -201,6 +201,9 @@ h1, h2, h3, h4, h5, p, ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+}
+.gallery-item {
+  border-bottom: 1px solid #EEEEEE;
 }
 .gallery-image {
   margin-bottom: 20px;
