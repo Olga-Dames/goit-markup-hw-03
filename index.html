@@ -18,24 +18,28 @@
   <body>
     <!--header-->
     <header class="header">
-      <div class="container">
+      <div class="container main-nav">
         <a class="logo" href="./index.html"
           >Web<span class="logo-part">Studio</span></a
         >
         <nav class="nav">
-          <ul class="list">
-            <li><a class="nav-link current" href="./index.html">Студія</a></li>
-            <li><a class="nav-link" href="./portfolio.html">Портфоліо</a></li>
-            <li><a class="nav-link" href="#">Контакти</a></li>
+          <ul class="list navigation">
+            <l class="item"
+              ><a class="nav-link current" href="./index.html">Студія</a></l
+            >
+            <li class="item">
+              <a class="nav-link" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="item"><a class="nav-link" href="#">Контакти</a></li>
           </ul>
         </nav>
         <ul class="contacts list">
-          <li class="contact-item">
+          <li class="item">
             <a class="contact-link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li class="contact-item">
+          <li class="item">
             <a class="contact-link" href="tel:+380961111111"
               >+38 096 111 11 11</a
             >
@@ -57,10 +61,10 @@
       </section>
 
       <!--features-->
-      <section class="section features">
+      <section class="section feature">
         <div class="container">
           <h2 class="visually-hidden">Наші особливості</h2>
-          <ul class="list">
+          <ul class="features list">
             <li class="features-item">
               <h3 class="features-title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p>
@@ -96,22 +100,22 @@
       <section class="section">
         <div class="container">
           <h2 class="activity-title">Чим ми займаємося</h2>
-          <ul class="list">
-            <li>
+          <ul class="activity list">
+            <li class="activity-item">
               <img
                 src="./images/feature1.jpg"
                 alt="моноблок та планшет з клавіатурою"
                 width="370"
               />
             </li>
-            <li>
+            <li class="activity-item">
               <img
                 src="./images/feature2.jpg"
                 alt="ноутбук та телефон"
                 width="370"
               />
             </li>
-            <li>
+            <li class="activity-item">
               <img
                 src="./images/feature3.jpg"
                 alt="планшет зі схемою кольорів"
@@ -126,7 +130,7 @@
       <section class="team section">
         <div class="container">
           <h2 class="team-title">Наша команда</h2>
-          <ul class="list">
+          <ul class="team list">
             <li class="team-item">
               <img
                 class="team-avatar"
@@ -138,7 +142,12 @@
               <p>Product Designer</p>
             </li>
             <li class="team-item">
-              <img src="./images/member2.jpg" alt="Ольга Рєпіна" width="270" />
+              <img
+                class="team-avatar"
+                src="./images/member2.jpg"
+                alt="Ольга Рєпіна"
+                width="270"
+              />
               <h3 class="team-heading">Ольга Рєпіна</h3>
               <p>Frontend Developer</p>
             </li>
@@ -168,13 +177,13 @@
     </main>
 
     <!--footer-->
-    <footer class="footer">
-      <div class="container">
+    <footer>
+      <div class="container footer">
         <a class="footer logo" href="./index.html"
           >Web<span class="footer-part">Studio</span></a
         >
         <address>
-          <ul class="address-list list">
+          <ul class="list">
             <li class="address-item">
               <a
                 class="address-link map"
